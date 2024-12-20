@@ -1,4 +1,5 @@
-import './App.css';
+import "./App.css";
+import SimpleCard from "./components/Card/Card";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
             Learn React
           </a>
         </p>
+        <SimpleCard></SimpleCard>
+        <p className="mm">holasssss</p>
       </header>
     </div>
   );
